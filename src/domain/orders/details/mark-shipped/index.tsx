@@ -1,4 +1,4 @@
-import { ClaimOrder, Fulfillment, Order, Swap } from "@medusajs/medusa"
+import { ClaimOrder, Fulfillment, Order, Swap } from "@/backend/dist"
 import {
   useAdminCreateClaimShipment,
   useAdminCreateShipment,

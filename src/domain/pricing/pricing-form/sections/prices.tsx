@@ -1,4 +1,4 @@
-import { Product } from "@medusajs/medusa"
+import { Product } from "@/backend/dist"
 import { useAdminPriceListProducts } from "medusa-react"
 import * as React from "react"
 import Accordion from "../../../../components/organisms/accordion"

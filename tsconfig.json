@@ -10,7 +10,12 @@
     "esModuleInterop": true,
     "noUnusedLocals": false,
     "allowJs": true,
-    "noImplicitAny": false
+    "noImplicitAny": false,
+    "baseUrl": ".",
+    "paths": {
+      "@/backend/*": ["../lib/*"]
+    }
   },
+  "include": ["next-env.d.ts", "**/*.tsx", "**/*.ts"],
   "exclude": ["node_modules", "public", ".cache"]
 }

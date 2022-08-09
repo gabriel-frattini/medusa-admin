@@ -1,4 +1,4 @@
-import { Product } from "@medusajs/medusa"
+import { Product } from "@/backend/dist"
 import {
   useAdminPriceListProducts,
   useAdminDeletePriceListProductPrices,

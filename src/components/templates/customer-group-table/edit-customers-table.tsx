@@ -1,4 +1,4 @@
-import { Customer } from "@medusajs/medusa"
+import { Customer } from "@/backend/dist"
 import { useAdminCustomerGroups, useAdminCustomers } from "medusa-react"
 import React, { useEffect, useState } from "react"
 import {

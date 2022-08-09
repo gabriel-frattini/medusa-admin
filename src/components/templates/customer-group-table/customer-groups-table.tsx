@@ -1,4 +1,4 @@
-import { CustomerGroup } from "@medusajs/medusa"
+import { CustomerGroup } from "@/backend/dist"
 import { navigate } from "gatsby"
 import { useAdminCustomerGroups } from "medusa-react"
 import React, { useContext } from "react"

@@ -1,4 +1,4 @@
-import { Address, ClaimOrder, Fulfillment, Swap } from "@medusajs/medusa"
+import { Address, ClaimOrder, Fulfillment, Swap } from "@/backend/dist"
 import { navigate } from "gatsby"
 import { capitalize, sum } from "lodash"
 import {

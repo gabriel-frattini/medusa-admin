@@ -1,4 +1,4 @@
-import { Product, ProductVariant } from "@medusajs/medusa"
+import { Product, ProductVariant } from "@/backend/dist"
 import {
   useAdminDeleteVariant,
   useAdminStore,

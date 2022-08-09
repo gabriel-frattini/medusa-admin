@@ -1,4 +1,4 @@
-import { Address } from "@medusajs/medusa"
+import { Address } from "@/backend/dist"
 import { navigate } from "gatsby"
 import {
   useAdminDeleteDraftOrder,

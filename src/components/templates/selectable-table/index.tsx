@@ -3,7 +3,7 @@ import {
   Product,
   ProductCollection,
   ProductTag,
-} from "@medusajs/medusa"
+} from "@/backend/dist"
 import { debounce } from "lodash"
 import React, { useEffect } from "react"
 import {

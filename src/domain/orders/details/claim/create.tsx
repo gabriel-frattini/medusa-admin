@@ -3,7 +3,7 @@ import {
   Order,
   ProductVariant,
   ShippingOption,
-} from "@medusajs/medusa"
+} from "@/backend/dist"
 import clsx from "clsx"
 import {
   useAdminCreateClaim,

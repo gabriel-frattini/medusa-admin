@@ -1,4 +1,4 @@
-import { ClaimItem, LineItem, Order } from "@medusajs/medusa"
+import { ClaimItem, LineItem, Order } from "@/backend/dist"
 
 export const filterItems = (
   order: Omit<Order, "beforeInserts">,

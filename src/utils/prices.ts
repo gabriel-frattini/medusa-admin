@@ -1,4 +1,4 @@
-import { LineItemTaxLine, MoneyAmount, Order } from "@medusajs/medusa"
+import { LineItemTaxLine, MoneyAmount, Order } from "@/backend/dist"
 import { currencies } from "./currencies"
 
 export function normalizeAmount(currency: string, amount: number): number {

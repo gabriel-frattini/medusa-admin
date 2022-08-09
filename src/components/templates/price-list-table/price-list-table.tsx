@@ -1,4 +1,4 @@
-import { PriceList } from "@medusajs/medusa"
+import { PriceList } from "@/backend/dist"
 import { debounce } from "lodash"
 import React from "react"
 import {

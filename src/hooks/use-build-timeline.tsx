@@ -1,4 +1,4 @@
-import { Return, Swap } from "@medusajs/medusa"
+import { Return, Swap } from "@/backend/dist"
 import {
   useAdminNotes,
   useAdminNotifications,

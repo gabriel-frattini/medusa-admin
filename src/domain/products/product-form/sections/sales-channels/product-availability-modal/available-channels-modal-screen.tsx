@@ -1,4 +1,4 @@
-import { SalesChannel } from "@medusajs/medusa"
+import { SalesChannel } from "@/backend/dist"
 import React, { useState } from "react"
 import { usePagination, useRowSelect, useTable } from "react-table"
 import SalesChannelAvailabilityTable, {

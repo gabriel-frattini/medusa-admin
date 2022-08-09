@@ -2,7 +2,7 @@ import clsx from "clsx"
 import { navigate } from "gatsby"
 import React, { useEffect, useRef, useState } from "react"
 
-import { SalesChannel } from "@medusajs/medusa"
+import { SalesChannel } from "@/backend/dist"
 import {
   useAdminDeleteSalesChannel,
   useAdminProducts,

@@ -1,4 +1,4 @@
-import { SalesChannel } from "@medusajs/medusa"
+import { SalesChannel } from "@/backend/dist"
 import React from "react"
 import { FormProvider, useForm, useFormContext } from "react-hook-form"
 import { FeatureFlagContext } from "../../../../context/feature-flag"

@@ -1,7 +1,7 @@
 import React from "react"
 import { sortBy } from "lodash"
 
-import { CustomerGroup } from "@medusajs/medusa"
+import { CustomerGroup } from "@/backend/dist"
 
 /**
  * Customers Associated Groups props

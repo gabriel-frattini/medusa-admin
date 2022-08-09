@@ -1,5 +1,5 @@
 import React from "react"
-import { Customer, CustomerGroup } from "@medusajs/medusa"
+import { Customer, CustomerGroup } from "@/backend/dist"
 import { Column } from "react-table"
 
 import CustomerAvatarItem from "../../molecules/customer-avatar-item"

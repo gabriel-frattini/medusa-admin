@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { useAdminUpdateSalesChannel } from "medusa-react"
 
-import { SalesChannel } from "@medusajs/medusa"
+import { SalesChannel } from "@/backend/dist"
 
 import Modal from "../../../components/molecules/modal"
 import InputField from "../../../components/molecules/input"

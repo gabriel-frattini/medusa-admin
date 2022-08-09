@@ -1,5 +1,5 @@
 import React, { useEffect } from "react"
-import { Product, SalesChannel } from "@medusajs/medusa"
+import { Product, SalesChannel } from "@/backend/dist"
 import { useAdminSalesChannels, useAdminStore } from "medusa-react"
 import Badge from "../../../../../components/fundamentals/badge"
 import Button from "../../../../../components/fundamentals/button"
